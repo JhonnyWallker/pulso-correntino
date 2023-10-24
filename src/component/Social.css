@@ -15,7 +15,3 @@ i {
   color: var(--strong-grey);
 }
 
-i:hover {
-  color: var(--yellow);
-  cursor: pointer;
-}

@@ -1,7 +1,7 @@
 import "./Head.css";
 import DateFormat from "./DateFormat";
 import Search from "./Search";
-import Redes from "./Redes";
+
 
 function Head({ handleSearch }) {
   return (
@@ -18,9 +18,7 @@ function Head({ handleSearch }) {
             title="que se vea"
           />
         </a>
-        <div className="fs-5 text-center fondo-transparente">
-          <DateFormat />
-        </div>
+        
       </div>
       <form className="fondo-transparente d-none d-sm-block">
         <Search handleSearch={handleSearch} />

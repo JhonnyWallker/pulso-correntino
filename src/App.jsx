@@ -45,15 +45,8 @@ function App() {
         <div className="m-0 d-none d-sm-block">
           <NavBar />
         </div>
-        <div className="fondo-transparente d-flex justify-content-center">
-          <img
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1677775249/logo-corrientes_rzqz0i.png"
-            alt="corrientes somos todos"
-            className="banner-ctes mt-4 fondo-transparente"
-            title="corrientes somos todos"
-          />
-        </div>
-        <hr />
+        
+        
         <hr />
       </div>
       <div className="bg-publicidad mtS config-publicidad">Publicidad</div>
@@ -72,15 +65,11 @@ function App() {
             </Routes>
           </Router>
         </div>
-        <div className="col-2 d-none d-sm-block fixed-top config-alert fondo-transparente">
-          <Alert />
-        </div>
+        
       </div>
 
       <div className="d-none d-sm-block">
-        <div className="d-flex justify-content-center mb-config">
-          <BannerBottom />
-        </div>
+        
 
         <div className="bg-dark">
           <Footer news={news} />
