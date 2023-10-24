@@ -6,9 +6,7 @@ import Redes from "./Redes";
 function Head({ handleSearch }) {
   return (
     <>
-      <div className="fondo-transparente d-none d-sm-block">
-        <Redes />
-      </div>
+      
       <div className="fondo-transparente mb-3">
         <a
           href="/"
@@ -16,7 +14,7 @@ function Head({ handleSearch }) {
         >
           <img
             className="logo fondo-transparente"
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1678999958/quesevea-q_zhugsf.png"
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698117742/al-detalle_axi2pa.png"
             title="que se vea"
           />
         </a>

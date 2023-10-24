@@ -8,8 +8,8 @@ function Footer() {
         <div className="col-10 fondo-transparente">
           <img
             className="img-logo-footer fondo-transparente"
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1678999958/quesevea-q-letras-blancas_mwcdls.png"
-            title="que se vea"
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698117742/al-detalle_axi2pa.png"
+            title="al detalle"
           />
         </div>
 
