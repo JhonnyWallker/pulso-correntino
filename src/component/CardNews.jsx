@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function CardNews({ news }) {
   return (
-    <div className="container p-0">
+    <>
       {news.map((newsapi) => (
         <Link
           reloadDocument
@@ -12,16 +12,17 @@ function CardNews({ news }) {
           title={newsapi.title}
           className="card cardContainer align-top"
         >
-          
           <img src={newsapi.image_url} alt={newsapi.title} />
-          <div className="titulo fondo-transparente">{newsapi.title}</div>
-
-          <p className="description fondo-transparente m-2">{newsapi.description}</p>
-          
+          <h6 className="categoria">
+            <em>{newsapi.category}</em>
+          </h6>
+          <h5 className="titulo fondo-transparente">{newsapi.title}</h5>
+          <p className="description fondo-transparente m-2">
+            {newsapi.description}
+          </p>
         </Link>
       ))}
-      ,
-    </div>
+    </>
   );
 }
 

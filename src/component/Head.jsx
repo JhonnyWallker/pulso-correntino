@@ -2,7 +2,6 @@ import "./Head.css";
 import DateFormat from "./DateFormat";
 import Search from "./Search";
 
-
 function Head({ handleSearch }) {
   return (
     <>
@@ -21,7 +20,7 @@ function Head({ handleSearch }) {
           <Search handleSearch={handleSearch} />
         </form>
       </div>
-
+      {/* vista responsive */}
       <div className="container d-flex justify-content-center fondo-transparente">
         <a
           href="/"
@@ -33,7 +32,6 @@ function Head({ handleSearch }) {
             title="al detalle"
           />
         </a>
-
       </div>
     </>
   );

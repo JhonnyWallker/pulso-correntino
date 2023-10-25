@@ -17,25 +17,21 @@ function PageDetails() {
 
   return (
     <>
-      <div className="container">
-        <div>
-          <div className="position-relative mb-5 mt-5">
-            <p className="text-secondary text-decoration-underline">
-              {noticia.category}
-            </p>
-            <h4>{noticia.title}</h4>
-            <hr />
-            <div className="m-2">
-              <p className="text-secondary fs-5">{noticia.description}</p>
-              <p className="lh-lg text-start fs-5 textoP">{noticia.content}</p>
-            </div>
-            <img
-              className="w-100 fixed"
-              src={noticia.image_url}
-              alt={noticia.title}
-            />
-          </div>
+      <div className="container position-relative mb-5 mt-5">
+        <h5 className="text-green-apple">{noticia.category}</h5>
+        <h3 className="mb-5">{noticia.title}</h3>
+        <hr />
+        <div className="m-2">
+          <p className="text-secondary fs-5 mb-5">
+            <i>{noticia.description}</i>
+          </p>
+          <p className="lh-lg text-start fs-5 textoP">{noticia.content}</p>
         </div>
+        <img
+          className="w-img fixed container"
+          src={noticia.image_url}
+          alt={noticia.title}
+        />
       </div>
     </>
   );

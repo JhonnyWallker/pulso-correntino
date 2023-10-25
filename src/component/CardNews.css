@@ -30,13 +30,12 @@ a:hover {
   font-size: 14px;
 }
 
-
-
 .cardContainer {
   display: inline-block;
   margin: 10px;
   background-color: #f5f5f5;
-  width: 345px;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 .cardContainer img {
@@ -46,15 +45,17 @@ a:hover {
 
 .categoria {
   margin-top: 1rem;
-  
 }
-
-
 
 .titulo {
   margin: 1rem;
-  font-size: 20px;
   font-weight: bold;
+}
+
+.categoria {
+  margin: 1rem;
+  font-weight: bold;
+  color: #96cc00;
 }
 
 .footer-card {
@@ -74,4 +75,3 @@ a:hover {
   font-size: 14px;
   color: #b9b9b9;
 }
-
