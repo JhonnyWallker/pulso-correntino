@@ -7,6 +7,7 @@ function Search({ handleSearch }) {
         // placeholder=""
         placeholder="Buscar en Corrientes al detalle"
         className="form-control input icono-placeholder"
+        title="Buscar"
         onChange={handleSearch}
       />
     </>

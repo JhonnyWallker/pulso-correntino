@@ -10,7 +10,7 @@ function DateFormat() {
 
   const fecha = Data.toLocaleDateString("es-ES", options);
 
-  return <div className="fs-6 text-dark">{fecha}</div>;
+  return <div className="fs-6 text-dark" title={fecha}>{fecha}</div>;
 }
 
 export default DateFormat;

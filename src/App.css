@@ -39,38 +39,20 @@ hr {
   margin-top: 150px;
 }
 
-.fondo-transparente {
-  background-color: transparent;
-}
-
-.bg-publicidad {
-  background-color: #e5e3e3;
-}
-
-.config-publicidad {
-  margin-bottom: 30px;
-  color: #808080;
-  padding: 40px;
-  border-radius: 5px;
-  text-align: center;
-}
-
-.config-alert {
-  margin-top: 477px;
-  margin-left: 1450px;
-}
+/* .mtS {
+  margin-top: 50px;
+} */
 
 .logo {
-  font-family: "Audiowide", sans-serif;
   font-size: 15px;
 }
+
 .input {
   border-radius: 20px;
   width: 500px;
 }
 .icono-placeholder::placeholder {
   font-family: "arial", sans-serif;
- 
 }
 
 .mb-config {
@@ -83,4 +65,12 @@ hr {
 
 .text-green-apple {
   color: #96cc00;
+}
+
+.banner-big {
+  width: 500px;
+}
+
+.container-banner-big {
+  margin-top: 150px;
 }

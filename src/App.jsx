@@ -9,7 +9,6 @@ import NavBar from "./component/NavBar";
 import PageNotFound from "./component/PageNotFound";
 import Footer from "./component/Footer";
 
-
 function App() {
   //allNews
   const [news, setNews] = useState([]);
@@ -40,7 +39,14 @@ function App() {
         <Head handleSearch={handleSearch} />
         <NavBar />
       </header>
-      <hr />
+      {/* <div className="d-flex justify-content-center container-banner-big">
+        <img
+          src="https://corrienteshabla.com.ar/wp-content/uploads/2023/05/ctes_somos_todos.gif"
+          alt="Corrientes somos todos"
+          className="banner-big"
+        />
+      </div> */}
+
       <section className="container mtS">
         <Router>
           <Routes>
