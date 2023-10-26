@@ -16,18 +16,15 @@ function Head({ handleSearch }) {
             title="al detalle"
           />
         </a>
-        <form className="fondo-transparente d-none d-sm-block m-3">
+        <form className="d-none d-sm-block m-3">
           <Search handleSearch={handleSearch} />
         </form>
       </div>
       {/* vista responsive */}
-      <div className="container d-flex justify-content-center fondo-transparente">
-        <a
-          href="/"
-          className="fondo-transparente d-flex justify-content-center"
-        >
+      <div className="container d-flex justify-content-center">
+        <a href="/" className="d-flex justify-content-center">
           <img
-            className="logo fondo-transparente d-block d-sm-none"
+            className="logo d-block d-sm-none"
             src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698117742/al-detalle_axi2pa.png"
             title="al detalle"
           />

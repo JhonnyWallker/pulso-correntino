@@ -26,3 +26,7 @@ box-icon:hover {
 .banner-ctes {
     width: 300px;
 }
+
+form {
+    align-self: center;
+}

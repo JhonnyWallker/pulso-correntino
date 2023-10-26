@@ -4,6 +4,10 @@
 
 .img-logo-footer {
   
-  width: 250px;
+  width: 50px;
   padding-top: 35px;
+}
+
+li {
+  list-style: none;
 }

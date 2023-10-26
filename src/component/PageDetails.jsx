@@ -21,17 +21,19 @@ function PageDetails() {
         <h5 className="text-green-apple">{noticia.category}</h5>
         <h3 className="mb-5">{noticia.title}</h3>
         <hr />
+        <img
+          className="w-img fixed container mt-5 d-flex justify-content-center"
+          src={noticia.image_url}
+          alt={noticia.title}
+        />
+        
         <div className="m-2">
           <p className="text-secondary fs-5 mb-5">
             <i>{noticia.description}</i>
           </p>
           <p className="lh-lg text-start fs-5 textoP">{noticia.content}</p>
         </div>
-        <img
-          className="w-img fixed container"
-          src={noticia.image_url}
-          alt={noticia.title}
-        />
+        
       </div>
     </>
   );
