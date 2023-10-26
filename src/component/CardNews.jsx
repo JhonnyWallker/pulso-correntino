@@ -13,7 +13,7 @@ function CardNews({ news }) {
           className="card cardContainer align-top"
         >
           <img src={newsapi.image_url} alt={newsapi.title} />
-          <h6 className="categoria">
+          <h6 className="categoria fondo-transparente">
             <em>{newsapi.category}</em>
           </h6>
           <h5 className="titulo fondo-transparente">{newsapi.title}</h5>
