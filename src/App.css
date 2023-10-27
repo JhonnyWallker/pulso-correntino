@@ -35,13 +35,13 @@ hr {
   z-index: 50;
 }
 
-.mtS {
-  margin-top: 150px;
-}
-
 /* .mtS {
-  margin-top: 50px;
+  margin-top: 150px;
 } */
+
+.mtS {
+  margin-top: 50px;
+}
 
 .logo {
   font-size: 15px;
@@ -68,7 +68,7 @@ hr {
 }
 
 .banner-big {
-  width: 500px;
+  width: 340px;
 }
 
 .container-banner-big {
