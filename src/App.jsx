@@ -8,6 +8,7 @@ import Head from "./component/Head";
 import NavBar from "./component/NavBar";
 import PageNotFound from "./component/PageNotFound";
 import Footer from "./component/Footer";
+import BannerBottom from "./component/BannerBottom";
 
 function App() {
   //allNews
@@ -55,6 +56,9 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Router>
+      </section>
+      <section className="container d-flex justify-content-center">
+        <BannerBottom/>
       </section>
       <section className="bg-dark">
         <Footer news={news} />
