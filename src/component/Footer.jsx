@@ -8,8 +8,8 @@ function Footer() {
       <div className="d-flex justify-content-center">
         <img
           className="img-logo-footer"
-          src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698259112/al-detalle_axi2pa_knpjk4.png"
-          title="al detalle"
+          src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1706189320/pulso-correntino_ql3ini.png"
+          title="Pulso Correntino"
         />
       </div>
 

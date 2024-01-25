@@ -9,8 +9,8 @@ function Head({ handleSearch }) {
         <a href="/">
           <img
             className="logo fondo-transparente d-none d-sm-block"
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698117742/al-detalle_axi2pa.png"
-            title="al detalle"
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1706189320/pulso-correntino_ql3ini.png"
+            title="Pulso Correntino"
           />
         </a>
         <form className="d-none d-sm-block m-3">
@@ -22,8 +22,8 @@ function Head({ handleSearch }) {
         <a href="/">
           <img
             className="logo d-block d-sm-none"
-            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1698117742/al-detalle_axi2pa.png"
-            title="al detalle"
+            src="https://res.cloudinary.com/dm4wfkipp/image/upload/v1706189320/pulso-correntino_ql3ini.png"
+            title="Pulso Correntino"
           />
         </a>
       </div>

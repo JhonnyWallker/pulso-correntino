@@ -5,7 +5,7 @@ function Search({ handleSearch }) {
       <input
         type="text"
         // placeholder=""
-        placeholder="Buscar en Corrientes al detalle"
+        placeholder="Buscar en Pulso Correntino"
         className="form-control input icono-placeholder"
         title="Buscar"
         onChange={handleSearch}
